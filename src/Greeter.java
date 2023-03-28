@@ -27,12 +27,11 @@ public class Greeter {
 
     public static void main(String[] args) {
         // TODO: call the getNameFromGui method and store the result in a variable
-        // We need to modify the `getNameFromGui` method to return the name entered by the user
-        // and assign it to a variable in the `main` method
+
         String name = JOptionPane.showInputDialog("What is your name?");
 
         // TODO: call the printName function with the variable you created above as an argument
-        // We can now call the `printName` method with the name variable
+
         printName(name);
     }
 }
